@@ -2,8 +2,9 @@
   "name": "bmd-wallet",
   "version": "1.0.0",
   "description": "Personal expense tracker",
-  "main": "index.mjs",
+  "main": "src/index.mjs",
   "scripts": {
+    "start": "node src/index.mjs",
     "test": "npx jest"
   },
   "repository": {
