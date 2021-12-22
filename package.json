@@ -1,0 +1,19 @@
+{
+  "name": "bmd-wallet",
+  "version": "1.0.0",
+  "description": "Personal expense tracker",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeCorben/bmd-wallet.git"
+  },
+  "author": "DeCorben",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeCorben/bmd-wallet/issues"
+  },
+  "homepage": "https://github.com/DeCorben/bmd-wallet#readme"
+}
