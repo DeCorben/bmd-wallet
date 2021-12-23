@@ -10,7 +10,7 @@ const entryBox = function box(props) {
     <li key={key}>
       <input
         type="text"
-        name={`entry${key}`}
+        name={`entry-${key}`}
         value={value}
         onChange={changer}
       />

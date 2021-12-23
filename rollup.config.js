@@ -7,7 +7,7 @@ import replace from '@rollup/plugin-replace';
 import parseJson from '@rollup/plugin-json';
 
 export default {
-  input: 'src/tenbox/index.jsx',
+  input: 'src/client/index.jsx',
   output: {
     file: 'dist/main.js',
     format: 'cjs',
