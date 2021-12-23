@@ -4,7 +4,8 @@
   "description": "Personal expense tracker",
   "main": "src/index.mjs",
   "scripts": {
-    "start": "node src/index.mjs",
+    "loop": "nodemon src/index.mjs",
+    "start": "npx rollup -c && node src/index.mjs",
     "test": "npx jest"
   },
   "repository": {
@@ -18,15 +19,30 @@
   },
   "homepage": "https://github.com/DeCorben/bmd-wallet#readme",
   "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.1.1",
+    "@rollup/plugin-replace": "^3.0.0",
+    "@types/html-minifier": "^4.0.1",
     "eslint": "^8.5.0",
     "eslint-config-airbnb": "^19.0.2",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.27.1",
-    "eslint-plugin-react-hooks": "^4.3.0"
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "nodemon": "^2.0.15",
+    "rollup": "^2.61.1",
+    "rollup-plugin-cleaner": "^1.0.0",
+    "rollup-plugin-html2": "^3.1.0"
   },
   "dependencies": {
     "fastify": "^3.25.1",
-    "react": "^17.0.2"
+    "fastify-static": "^4.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
